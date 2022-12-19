@@ -6,7 +6,7 @@ import { Link as RouterLink } from 'react-router-dom';
 
 export default function Navbar() {
     return (
-        <HStack color='white' w='100vw' h='10vh' px='8' justifyContent='space-between' bgColor='purple.800'>
+        <HStack color='white' w='100vw' h='10vh' px='8' justifyContent='space-between' bgColor='purple.900'>
             <Link _hover={{ opacity: 0.7 }} style={{ textDecoration: 'none' }} as={RouterLink} to='/' >
                 <HStack alignItems='center' >
                     <Icon
