@@ -4,7 +4,7 @@ export const TimerContext = createContext();
 
 const TimerContextProvider = ({ children }) => {
     return (
-        <TimerContext.Provider>
+        <TimerContext.Provider value={{}} >
             {children}
         </TimerContext.Provider>
     )
